@@ -1,0 +1,92 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Estilos del encabezado */
+header {
+    background: #4a90e2; /* Color azul */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Estilos de la navegación */
+nav {
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #d1e8ff; /* Color más claro al pasar el ratón */
+}
+
+/* Estilos de las secciones */
+main {
+    max-width: 900px; /* Ancho máximo de la página */
+    margin: 20px auto;
+    padding: 20px;
+}
+
+section {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #4a90e2; /* Color azul para los subtítulos */
+}
+
+/* Estilos del pie de página */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background: #4a90e2; /* Color azul */
+    color: #ffffff; 
+}
+
+/* Responsividad */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+.relacionesimg{
+    width: 45%;
+    float: right;
+    padding: 7px;
+    border-radius: 15%;
+}
